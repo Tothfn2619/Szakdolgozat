@@ -1,0 +1,38 @@
+
+<div class="split-view-container">
+  <div class="left">
+    <h1 >Vonatok</h1>
+
+    <app-list [trainsObjectInput]="trainObject" (trainObjectEmitter)="loadTrain($event)" style="  position: absolute;
+    margin: auto; display: block;  left:3em; "></app-list>
+    <br>
+    <br>
+    <app-image [trainInput]="chosenTrain" style="margin: auto;" class="center" style="  position: absolute;
+    margin: auto; display: block;  left:2em;"></app-image>
+
+    <br><br>
+    <button mat-raised-button matTooltip="Az egér segítségével mozgatható lesz a modell!" matTooltipPosition="right" class="action-btn" (click)="openDialog()" value="chosenTrain.value" style="  position: absolute;
+    margin: auto; display: block;  bottom: 3em; left:3em;">
+      3D modell
+    </button>
+   
+    
+
+    <!-- Left-->
+    <router-outlet name="left"></router-outlet>
+  </div>
+
+  
+  <div class="right">
+    <h1>Információ</h1>
+    
+   
+      <app-viewer [trainInput]="chosenTrain" class="behuzas" style="  position: absolute;
+      margin: auto; display: block; "></app-viewer>
+
+
+
+    <!-- Right-->
+    <router-outlet name="right"></router-outlet>
+  </div>
+</div>

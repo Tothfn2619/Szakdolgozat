@@ -1,0 +1,26 @@
+ [mat-button] {
+    text-transform: capitalize;
+    
+  }
+  mat-button{
+    color: #ffffe6;
+  }
+  
+  [mat-button]:not(:last-child){ //mindenhol lenne utána 16px hely, kivéve az utolsó
+    margin-right: 16px;
+  }
+  
+  a[mat-button]{ 
+    font-size:xx-large;
+   
+  }
+
+
+  mat-toolbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: 	#823b17;
+  }
+

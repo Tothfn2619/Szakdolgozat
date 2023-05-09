@@ -1,0 +1,194 @@
+
+<h1 mat-dialog-title class="centered">  
+    <span *ngIf="data.chosenMap === 'terkep'" class="centered">terkep</span>
+    <span *ngIf="data.chosenMap === 'garadna'">Garadna</span>
+    <span *ngIf="data.chosenMap === 'kozepgaradna'">Pisztrángtelep</span>
+    <span *ngIf="data.chosenMap === 'fazolakoho'">Fazola-kohó</span>
+    <span *ngIf="data.chosenMap === 'lillafured'">Lillafüred</span>
+    <span *ngIf="data.chosenMap === 'puskaporos'">Puskaporos</span>
+    <span *ngIf="data.chosenMap === 'papirgyar'">Papírgyár</span>
+    <span *ngIf="data.chosenMap === 'majlath'" >Majláth</span>
+    <span *ngIf="data.chosenMap === 'martabanya'">Márta bánya</span>
+    <span *ngIf="data.chosenMap === 'diosgyor'">Diósgyőr</span>
+    <span *ngIf="data.chosenMap === 'dorottya'">Dorottya utca</span>
+    <span *ngIf="data.chosenMap === 'chinoin'">Chinoin</span>
+    <span *ngIf="data.chosenMap === 'csanyikerdei'">Csanyik-Erdei Iskola</span>
+    <span *ngIf="data.chosenMap === 'ortasteto'">Ortás-tető</span>
+    <span *ngIf="data.chosenMap === 'andokut'">Andó-kút</span>
+    <span *ngIf="data.chosenMap === 'mahoca'">Mahóca</span>
+</h1>
+
+
+<div mat-dialog-content>
+    <span *ngIf="data.chosenMap === 'terkep'">&#10003;terkep</span>
+   
+     <span *ngIf="data.chosenMap === 'garadna'"> 
+        <h2>Megközelítése</h2>
+        <div>Két legfontosabb közúti megközelítési útvonala a 3-as főút, mely a központján is áthalad, valamint az M30-as autópálya, amely a belterülete keleti széle mellett húzódik, s a falu északi szélén csomópontja is van. Hernádvécsével a 2627-es út köti össze.
+
+            A hazai vasútvonalak közül a Miskolc–Hidasnémeti-vasútvonal érinti, melynek azonban itt nincs megállási pontja; a legközelebbi vasúti csatlakozási lehetőséget így Novajidrány vasútállomás kínálja.</div>
+            <br><h2>Nevezetességei</h2>
+        <li> Harangláb (római katolikus kápolna): Valószínűleg a 15. században épült templom - megmaradt - különálló harangtornya. Falán napóra látható.</li>
+        <li>Görögkatolikus templom: Nagy valószínűséggel 1808-ban épült. Tornya későbbi, a szájhagyomány és néhány írott forrás szerint is az 1815-ben itt keresztülutazó I. Sándor orosz cár adományozott 100 holland aranyat az építésére.</li>
+        <li>Idősek klubja: Régebben fogadó, illetve postakocsi-állomás, később csendőr-, majd rendőrőrs.</li>
+        <br><h3>A Garadna megálló <a href="https://hu.wikipedia.org/wiki/Garadna" target="_blank">Wikipédia oldala</a></h3>
+     </span>
+     <span *ngIf="data.chosenMap === 'kozepgaradna'">
+        <h2>Megközelítése</h2>
+        <div>
+            <h3> Tömegközlekedéssel</h3>
+           <li> A 15-ös busszal érhető el, a Pisztrángkeltető elnevezésű megállónál kell leszállni, a megálló közvetlenül a telep főbejáratánál van.</li>
+           <li> A LÁEV erdei vasút ugyan közvetlenül a telep mögött megy el, de legközelebbi megállója (Közép-Garadna) 400 méter sétára van, ahonnan a Pisztráng tanösvényen haladva lehet elérni a keltetőt. A tanösvényen két út van. Az egyik felviszi a turistákat a hegyre, a másik a műút mellett vezet. Gyakori megoldás még, hogy a kisvasút sínpárja mentén sétálnak oda az emberek.</li>
+           <br><h3> Közúton</h3>
+           <li>Az Ómassa felé vezető úton kell haladni, a telep Lillafüred és Ómassa között van, a telep melletti szakasz külön táblával meg van jelölve. Parkolóhely azonban csak kevés van, az autóval érkezőknek célszerű Felső-Hámorban az ingyenesen igénybe vehető P+R parkolóban hagyni autóikat, és a 15-ös busszal felmenni a telepig. Motorok és kisebb autók azonban könnyen elférnek.</li></div>
+           <br> <h2>Nevezetességei</h2>
+        <li>  Pisztrángkeltető</li>
+        <div class="felsorolas">Ez egy különlegességnek számító haltelep. Mivel a pisztrángok kényes állatok, különleges körülményeket kell teremteni a víz hőmérsékletét, oxigéntartalmát és áramlási sebességét nézve.
+
+            Hasonló működik a Szalajka-völgyben, is ám itt a telephely a keltető tavak között a patak mellett üzemeltet egy halsütödét is, ahol a pisztrángokat frissen sütve vagy füstölve árulják az éttermektől ellentétben, melyek nagyobb tételekben vásárolnak egyszerre több halat.</div>
+        <h3><a href="https://hu.wikipedia.org/wiki/Pisztr%C3%A1ngkeltet%C5%91_(Garadna-v%C3%B6lgy)" target="_blank">Wikipédia oldala</a></h3>
+     </span>
+     <span *ngIf="data.chosenMap === 'fazolakoho'">
+        <h2>Nevezetességei</h2>
+        <li>  Őskohó</li>
+        <div class="felsorolas">Az újmassai őskohó Magyarország egyik legfontosabb ipari műemléke, Európában is ritkaságnak számít. Ez Magyarország legrégebbi faszén tüzelésű kohója, 1813-ban építtette Fazola Henrik.</div>
+        <li>Massa Múzeum</li><br>
+        <div style="font-size:medium; line-height: 1px;">
+        <h3 style="font-size: medium; line-height: 1px;"><a href="https://web.archive.org/web/20100418165701/http://www.kohmuz.t-online.hu/massa_muzeum.htm" target="_blank">Múzeum honlapja</a></h3>
+        <h3 style="font-size: medium; line-height: 1px;"><a href="https://hu.wikipedia.org/wiki/%C3%9Ajmassai_%C5%91skoh%C3%B3" target="_blank">Őskohó Wikipédia oldala</a></h3>
+        </div>
+     </span> <br>
+     <span *ngIf="data.chosenMap === 'lillafured'" >
+        <h2>Megközelítése</h2>
+        <div>
+            <li>Legfőképpen az 5-ös járattal lehet eljutni, de esetenként a 15-ös buszjárattal is, amikor Lillafüredet érinti.
+            </li>
+            <li>A Bükkszentkeresztre menő távolsági (Volán) járatnak is megállóhelye.
+            </li>
+            <li>Diósgyőrből indul a LÁEV erdei kisvasút, amely a Bükk legszebb tájain halad át Lillafüred felé.
+            </li>
+            <li>Megépült a lillafüredi libegő, amely a településről a Jávor-hegyre viszi fel az utasokat.
+            </li>
+        </div>
+        <br>
+        <span class="bold2">
+        <h2>Nevezetességei</h2>
+        <li> <a href="https://hu.wikipedia.org/wiki/Lillaf%C3%BCredi_Palotasz%C3%A1ll%C3%B3" target="_blank">Palotaszálló</a> </li>
+            <div class="felsorolas">A híres szálloda 1925 és 1929 között épült Lux Kálmán tervei alapján, neoreneszánsz stílusban. Mayer János, akkori földművelésügyi miniszter avatta fel. A szálló egyik étterme a közelmúltban reneszánsz étteremmé átalakított Mátyás étterem, ólomüveg ablakai a történelmi Magyarország várait ábrázolják. Az épületektől a Szinva-források felé hatalmas park terül el, botanikai ritkaságokkal.</div>
+        <li>Függőkert</li>
+            <div class="felsorolas">A Palotaszálló egy meredek emelkedő tetején található, és ennek megerősítésére egy támfalakkal tagolt teraszos sétányrendszert alakítottak ki. Innen nyílik az Anna-mésztufabarlang és több kisebb kőfülke, itt áll József Attila szobra és István főherceg látogatásának emlékoszlopa; a sétányról szépen látszik hazánk legmagasabb szabad esésű 20 méter magas vízesése. A függőkertet két oldalról a Szinva, illetve a Garadna határolja, tetején a szálló áll, az aljáról kőhídon át Felsőhámor faluba sétálhatunk.</div>
+        <li> <a href="https://hu.wikipedia.org/wiki/Lillaf%C3%BCredi_%C3%81llami_Erdei_Vas%C3%BAt" target="_blank"> Lillafüredi Állami Erdei Vasút</a></li>
+            <div class="felsorolas">Az erdészet építette 1920-ban kisvasutat (keskeny nyomtávú vasúti vonalat), elsősorban teherszállítási céllal. A menetrend szerinti személyszállítás igen korán, már 1923-ban megindult, így a Zsuzsi Vasúttal holtversenyben Magyarországon itt indult meg először a személyszállítás az erdei kisvasutak körében. Több szempontból is különleges, hiszen ezen a kisvasúton van Magyarország jelenleg legnagyobb kisvasúti hídja (Mélyvölgyi-híd), a nyitott személykocsi-állomás jelentős (⅔) része idén már 95 éves, továbbá itt közlekedik a világ első keskeny nyomtávtávolságú hibrid mozdonya. Jelenleg turisztikai célokra használják. Indulási állomása Miskolcon a Kilián városrészben van, és Garadnáig közlekedik, télen fűtött kocsikkal. Megrendelésre a szárnyvonalon Andó-kút felé is elmegy a vonat. Lillafürednél két alagút található a vasútvonalon. Az állomásépületben rendezték be a Kelet-bükki erdőgazdálkodás és a LÁEV története kiállítást. Ez május 1. és szeptember 30. között látogatható szerdától vasárnapig és minden hónap második keddjén 9–17 óra között, szezonon kívül külön kérésre.</div>
+        <li><a href="https://hu.wikipedia.org/wiki/Lillaf%C3%BCredi-v%C3%ADzes%C3%A9s" target="_blank">Lillafüredi-vízesés</a> </li>
+            <div class="felsorolas">A Palotaszálló építése előtti beszámolók már említést tesznek a Szinva patak eredeti vízeséséről, ami a Palotaszálló építése, illetve a tereprendezési munkálatok elvégzése előtt a Garadna patakkal együtt ömlött a Hámori-tóba. A 20 m magas vízesés létrejötte nem természetes, a Palotaszálló építése miatt el kellett terelni a Szinvát. A sétányról, ami nagyjából a vízesés felénél éri el a vízesést, a korlát mellett egy ösvényen biztonságosan le lehet jutni a vízesés alá. Mivel a vízművek a Szinva vizének jelentős részét elvezeti a szárazabb hónapokban a patakmederben csak nagyon kevés víz folyik, ezért, ha a túlzottan száraz időjárás úgy kívánja, a tóból emelnek át ide annyi vizet, hogy a vízesés látványa megmaradjon.</div>
+        <li> <a href="https://hu.wikipedia.org/wiki/H%C3%A1mori-t%C3%B3" target="_blank">Hámori-tó</a> </li>
+            <div class="felsorolas">A Hámori-tó a Garadna völgyében, a Szinva patak mésztufagátjának duzzasztó hatása miatt keletkezett. Először 1319-ben említik, egy pálos kolostorral kapcsolatos oklevélben Feltó-halastóként. A jelenlegi méretű tavat 1810-ben hozta létre a kohászat állandó vízellátása érdekében Fazola Frigyes. A gyár vízgazdálkodásában a tó igen fontos szerepet játszott: vízállását naponta mérték, a zsilipek nyitását gondosan följegyezték.
+
+                A tó másfél kilométer hosszú, helyenként meglehetősen mély. A tavon nyáron csónakázásra és vízibiciklizésre van lehetőség. Partján a Neptun Búvárklub épülete található. A tó egyik partján vezet a Bánkútra vezető autóút, a másik oldalon festői sétány található. A völgyzáró gáttól nem messze, a völgy déli oldalában fakad az Eszperantó-forrás vize, ami az erdei vasút alatti átereszen átfolyva jut a tóba.</div>
+        <li> <a href="https://hu.wikipedia.org/wiki/Anna-barlang" target="_blank"> Anna-mésztufabarlang</a></li>
+                <div class="felsorolas">Ez egy világritkaságnak számító barlang, az egész világon mindössze 6 hozzá hasonló létezik, ezért Magyarország egyik különleges természeti értékének számít. Magyarországon van még egy hozzá hasonló barlang Pécsett. A barlangot 1951-ben védetté, majd 1982-ben fokozottan védetté nyilvánították. Nyitvatartás a <a href="https://web.archive.org/web/20141027095320/http://bnpi.hu/oldal/anna-barlang-136.html" target="_blank">Bükki Nemzeti Park honlapján</a></div>
+        <li> <a href="https://hu.wikipedia.org/wiki/Szent_Istv%C3%A1n-barlang" target="_blank"> Szent István-barlang</a></li>
+                <div class="felsorolas">A Szent István-barlang a környék legnagyobb cseppkőbarlangja, látnivalói a Nagyterem, a Kilátó és a Színházterem. Egyes termeiben légzőszervi betegeket gyógyítanak. A barlang idegenforgalmi célokra kiépített, 1991-óta gyógybarlanggá nyilvánított, fokozottan védett természeti érték. Nyitvatartás a <a href="https://web.archive.org/web/20141027095226/http://bnpi.hu/oldal/szent-istvan-barlang-135.html" target="_blank"> Bükki Nemzeti Park honlapján</a></div>
+        <li>A „szikla”</li>
+                <div class="felsorolas">A szikla nem elsősorban turistalátványosság. az 1990-es évekig szigorúan titkos objektumot a helybeliek csak „Szikla” néven emlegetik. A Palotaszálló építésével egyidőben, annak munkálatai fedésében hozták létre[3] a légvédelmi célokat ellátó katonai objektumot. A légvédelmi üteg talán azért volt szükség, mert közvetlenül előtte áll a Hámori-tó duzzasztógátja, amely 0,4 millió m³ vizet tárol, és ezt akarták megvédeni. A rendszerváltást követően a szigorúan titkos minősítést feloldották. A Miskolc, Európa kulturális fővárosa projekt kapcsán ide tervezték – később ROCK! névre keresztelve – a végül meg nem valósult magyar rockmúzeumot. A ROCK! név játékosan utal egyrészt a rockzenére, másrészt a szikla angol nevére.</div>
+        <li> <a href="https://hu.wikipedia.org/wiki/Lillaf%C3%BCredi_libeg%C5%91" target="_blank">Lillafüredi Sport- és Kalandpark </a> </li>
+                <div class="felsorolas">A 2015 őszén megnyílt Lillafüredi Sport- és Kalandpark Magyarország egyik legszebb természeti környezetében, festői szépségű tájon, a Bükk hegységben található Szinva-völgyben, a Szinva-patak és a Garadna-patak összefolyásánál található. Érintetlen természetben, több mint kéthektáros területen, a Bükki Nemzeti Park területén fekszik. Az Erzsébet sétány két oldalán elhelyezkedő parkban kültéri és beltéri lasertag arénát, épületbe integrált magaslati kötélpályát, terep segway (elektromos kétkerekű) pályát, téli-nyári korcsolya és görkorcsolya pályát, tematikus játszóteret, streetball pályát, poolball pályát, valamint aktív pihenésre alkalmas piknikrétet alakítottak. Egyedülálló az a futball témájú PanIQszoba, amely 90 perces speciális logikai és ügyességi játékelemeket tartalmaz egy többtermes pályarendszerben. Az igazán bátrak kipróbálhatják az ejtőgépet és a zipline lecsúszót, a kicsik pedig kedvükre szórakozhatnak, játszhatnak a légvárban és az Aranymosónál.</div>
+        <li>Lillafüredi libegő</li>
+                <div class="felsorolas">A lillafüredi libegő Lillafüred és Jávorhegy között működő drótkötélpályás felvonó.[4] Kiinduló állomása Lillafüreden az Erzsébet sétányon található, ahonnan 1080 méter hosszan, 263 méteres szintkülönbségen szállítja az utasokat a 606 méter magas Jávorhegyre, a menetidő 11–12 perc. Mellette rollerösvényt és egy Oxigén nevű túraútvonalat is kialakítottak.</div>
+        <li>Zsófia-kilátó</li>
+                <div class="felsorolas">A Zsófia-kilátó a „szikla” fölött, a Dolka-hegy déli oldalán épült, eredetileg 1900 júliusában avatták fel, és Teleki Zsófiáról, az akkori főispán, Vay Elemér édesanyjáról nevezték el. Tervezője Szűcs Sándor volt. Az 1950-es években azonban zavarta a légvédelmi központhoz tartozó antenna működését, ezért lebontották. 2021–2022-ben felépítették a kilátó élethű másolatát, átadó ünnepsége 2022. augusztus 23-án volt.[5] 2022-ben az Aktív Magyarország pályázatán az év kilátója lett.[6]</div>
+        <li><a href="https://hu.wikipedia.org/wiki/Lillaf%C3%BCredi_tan%C3%B6sv%C3%A9ny" target="_blank">Lillafüredi tanösvény</a> </li>
+                <div class="felsorolas">A Szinva völgyében a patak jobb partján, illetve helyenként a hegyoldalban vezető tanösvény a Palotaszálló alól, az Anna-barlangtól indul. A Szent István-barlanggal átellenben a hegyoldalba felkapaszkodva érinti a Patrona Hungariae szoborfülkét, majd a Limpiászi keresztet, és úgy ereszkedik vissza a patak völgyébe.</div>
+        <li><a href="https://hu.wikipedia.org/wiki/Szeleta-barlang" target="_blank">Szeleta-barlang (ősemberbarlang)</a> </li>
+                <div class="felsorolas">A Szeleta-barlang Lillafüredről egy meredek emelkedőn közelíthető meg. Kadić Ottokár feltárása alatt több százezer éves pattintott kőeszközöket találtak, melyek készítőit a barlangról Szeleta-kultúrának (tudományos szóhasználatban seletien) nevezte el. Lakottsága az utolsó interglaciális elejétől több mint 100 ezer éven keresztül kimutatható.
+
+                    A barlang szabadon látogatható, ám megközelítése csak gyalogosan lehetséges. A gyalogút nagy emelkedésű turistaösvény.</div>
+        <li>Molnár-szikla</li>
+                    <div class="felsorolas">A Hámori-völgy oldalában lévő sziklához, melynek tetején fakereszt áll, két különböző legenda is fűződik. Az egyik szerint a szikla onnan kapta nevét, hogy innen ugrott le a szegény molnárlegény és a gazdag molnár lánya, akik nem lehettek egymáséi. Egy kevésbé ismert, de Jókai által megörökített legenda szerint egy idős molnár ugrott le a szikláról, amikor megtudta, hogy fiatal felesége megcsalja</div>
+        <li>Fehérkőlápa</li>
+                    <div class="felsorolas">A Lillafüredet rejtő völgy délkeleti oldalán található terület elnevezése, mely nevét egy nagyszerű kilátást biztosító szikláról (Fehérkő) és az alatta fekvő, meredek esésű, a fennsíkra vezető, völgyszerű hegyoldalról (lápa) kapta. A fennsíkon a Fehérkőlápai turistaház is található, sok kikapcsolódási lehetőséggel, továbbá Bükkszentkereszt felé hatalmas tisztás terül el, ami kedvelt kirándulóhely.</div>
+        <li>Hámori-szikla</li>
+                    <div class="felsorolas">Lillafüred előtt, Miskolc felé egy kilométerrel a völgy szurdokká keskenyedik. Ennek mindkét oldalán sziklamászók által kedvelt, természetes fal található. Január végén itt rendszeresen jégmászó versenyt rendeznek.</div>
+        <h3>A Lillafüredi megálló <a href="https://hu.wikipedia.org/wiki/Lillaf%C3%BCred" target="_blank">Wikipédia oldala</a></h3>
+    </span>
+     </span>
+     <span *ngIf="data.chosenMap === 'puskaporos'">
+        <div>Puskaporos egy kétvágányos állomás Felsőhámor felett a hegyoldalban, amely a közeli magaslatról kapta a nevét.
+
+            Az állomáshoz közel, a felsőhámori temetőben találjuk Fazola Henrik és Herman Ottó emlékművét, a faluban található továbbá a Kohászati Múzeum az úgynevezett kancellária épületében, ahol a magyarországi vasművesség és népek fémművességgel ismerkedhetünk meg, míg a völgy másik oldalán, a hegyoldalban az ősember-leleteket rejtő Szeleta-barlang várja a látogatókat.
+            
+            Puskaporos feltételes megállóhely, azaz a vonatok csak akkor állnak itt meg, ha van le- vagy felszálló utas.</div>
+        <br><h2>Nevezetességei</h2>
+            <li>Kohászati Múzeum</li>
+            <li>Szeleta-barlang</li><br>
+     </span>
+     <span *ngIf="data.chosenMap === 'papirgyar'">
+        <h2>Nevezetességei</h2>
+        <li>Papírgyári múzeum</li>
+        <div class="felsorolas">A pénzpapírt és hivatalos okmányok papírját is gyártó nagy múlttal rendelkező Papírgyár egy kiállításon mutatja be történetét és a papírgyártás folyamatát az országban egyedülálló módon.
+
+            A papírgyár régen szorosan együttműködött a LÁEV-vel, hiszen faanyagot és szenet is szállított nekik a kisvasút. A papírgyári megállónál régen még széncsúszda is volt.</div>
+        <h3><a href="https://www.dipa.hu/">Papírgyár honlapja</a></h3>
+     </span>
+     <span *ngIf="data.chosenMap === 'majlath'" >
+        <div class="felsorolas">Majláth megállóhely közel a LÁEV forgalmi telepéhez, a Hegyalja úti vasúti átjáró közvetlen közelében található.
+
+            Majláth feltételes megállóhely, azaz a vonatok csak akkor állnak itt meg, ha van le- vagy felszálló utas.</div>
+     </span>
+     <span *ngIf="data.chosenMap === 'martabanya'">
+        <div class="felsorolas">Mártabánya megállóhely egy időben Diósgyőr-városközpont névre hallgatott, és valóban innen a legegyszerűbb elérni az újonnan felhúzott városrészt. A mai név is találó azonban, 1923-1967 között működött ugyanis a közelben Márta-bánya néven egy szénbánya. A megállóhely egy földút mellett található, ahol a vasút keresztezi a Tömörkény István utcát; a fák között egy esőbeálló véd az időjárás viszontagságai ellen.
+
+            Mártabánya megállóhely feltételes megállóhely, azaz a vonatok csak akkor állnak itt meg, ha van le- vagy felszálló utas.</div>
+     </span>
+     <span *ngIf="data.chosenMap === 'diosgyor'">
+        <div class="felsorolas">Diósgyőr megállóhely az Előhegy utca aszfaltcsíkja: a kerítések előtt elhaladó vonatról egy hatalmas szelídgesztenyefa alatt lehet leszállni (illetve arra felszállni), a Diósgyőri temető közvetlen közelben. A kisvasút megállóhelyei közül innen közelíthető meg legkönnyebben a diósgyőri vár.
+
+            Diósgyőr megállóhely feltételes megállóhely, azaz a vonatok csak akkor állnak itt meg, ha van le- vagy felszálló utas.</div>
+        <br><h2>Nevezetességei</h2>
+        <li>Diósgyőri vár</li>
+            <div class="felsorolas">A diósgyőri vár egy középkori vár a történelmi Diósgyőr városában. Ez a vár katonai szempontból sosem volt jelentős, leginkább a királyok időtöltési helyeként szolgált. A vár fénykorát Nagy Lajos király idején élte, akinek ez volt az egyik kedvenc vára. Később a magyar királynék jegyajándéka volt, egészen a török időkig. A 17. század végére már lakhatatlanná vált, állapota egyre jobban leromlott. Régészeti feltárása az 1960-as években kezdődött meg. A 2000-es évek elején a várat elkezdték visszaépíteni eredeti állapotába, a helyreállított helyiségeket korhű bútorokkal rendezték be.</div>
+        <h3><a href="https://hu.wikipedia.org/wiki/Di%C3%B3sgy%C5%91ri_v%C3%A1r">Diósgyőri vár Wikipédia oldala</a></h3>
+     </span>
+     <span *ngIf="data.chosenMap === 'dorottya'">
+        <div class="felsorolas">Miskolc-Dorottya utca kétvágányos fejállomás, amely a hazai kisvasutak között egyedülálló módon panelházak tövében található, merőlegesen a Miskolc központjából Diósgyőrön át Lillafüredre vezető kelet-nyugati irányú főútra.
+
+            A kis állomást a közelmúltban szépen felújították, a Kiss tábornok utca (azaz a villamosmegálló) felőli végén a látogatót egy kiállított fél vasúti kocsi fogadja, amelyben a hazai kisvasutakkal ismerkedhet három nagy tabló segítségével. Továbbhaladva a peron felé kis oszlopokon a LÁEV két vonala mellett található látnivalók (pl. az Ómassai őskohó, a lillafüredi Palotaszálló, Andókút, vagy a diósgyőri vár) elevenednek meg kisplasztikák formájában. A peron mellett további infótáblákon lehet ismerkedni a kisvasút történetével – innen tudhatjuk meg például azt is, hogy a mostani végállomástól a sínek továbbvezettek a Ládi rakodó és a Tatárárok felé; az 1933-as Lillafüredi Írói Hét alkalmából a Budapestről érkező „kultúrvonatok” utasai a Ládi rakodón átszállva jutottak el a Palotaszállóba.</div>
+            <br><h2>Nevezetességei</h2>
+            <li>Az egyik szomszédos panelház tetején működik a Dr. Szabó Gyula Bemutató Csillagvizsgáló.</li>
+     </span>
+     
+     <span *ngIf="data.chosenMap === 'garadna'||data.chosenMap === 'kozepgaradna'||data.chosenMap === 'fazolakoho'||data.chosenMap === 'lillafured'||data.chosenMap === 'puskaporos'||data.chosenMap === 'papirgyar'||data.chosenMap === 'majlath'||data.chosenMap === 'martabanya'||data.chosenMap === 'diosgyor'||data.chosenMap === 'dorottya'">
+        <h2>Jegyárak:</h2>
+        <h3>Teljesárú jegyek:</h3>
+        <li class="felsorolas">Egy útra: 1500Ft</li>
+        <li class="felsorolas">Oda-vissza: 3000Ft</li>
+        <br><h3>Kedvezményes jegyek: (gyermek 3-14 éves korig, diák, nyugdíjas)</h3>
+        <li class="felsorolas">Egy útra: 1100Ft</li>
+        <li class="felsorolas">Oda-vissza: 2200Ft</li>
+        <br><h3>Napijegyek:</h3>
+        <li class="felsorolas">Teljesárú: 4800Ft</li>
+        <li class="felsorolas">Kedvezményes: 3500Ft</li>
+        <li class="felsorolas">Családi: 11700Ft</li>
+        <br><h3>Csoportos jegyek: (20 főtől)</h3>
+        <li class="felsorolas">Teljesárú egy útra: 1300 Ft/fő</li>
+        <li class="felsorolas">Teljesárú oda-vissza: 2600 Ft/fő</li>
+        <li class="felsorolas">Kedvezményes egy útra: 900 Ft/fő</li>
+        <li class="felsorolas">Kedvezményes oda-vissza: 1800 Ft/fő</li>
+        <br><h2>Menetrend a <a href="http://www.laev.hu/" target="_blank">LÁEV honlapján</a></h2>
+     </span>
+     <span *ngIf="data.chosenMap === 'chinoin'||data.chosenMap === 'csanyikerdei'||data.chosenMap === 'ortasteto'||data.chosenMap === 'andokut'||data.chosenMap === 'mahoca'">
+        <div class="bold">Csak alkalmanként megy erre különjárat!!</div>
+        <br><h2>Mahócai szárnyvonal története:</h2>
+        <div class="behuzas">A Mahócai, vagy más néven a Parasznyai szárnyvonal a fővonalból Papírgyár állomásnál ágazik ki. Kiépülése fokozatosan történt. Első szakasza 1920-22-ben készült el Modrovich Ferenc tervei alapján, 11 km-es hosszúságban Mahócáig. Legnagyobb emelkedése 42 ezrelék, az erdei iskola és Ortás-tető között. A szárnyvonalon elsősorban teherszállítás folyt, de 1933-ban egy rövid ideig megindult rajta a személyszállítás is. A meglévő vonalat bővítve 1940-ben Fülöpp Zoltán és Kövess János tervei alapján megépül a Mahóca-Taksalápa közötti 3,8 km-es pálya, majd 1947-1948-ban dr. Sali Emil erdőmérnök tervei alapján megépül a Taksalápa – Tízesbérc – Farkasgödör-Örvénykő szakasz is.</div>
+        <div class="behuzas" >Ezzel a szárnyvonal több mint 17 km-re bővült és elérte a legnagyobb hosszát. 1963-ban újraindult a személyszállítás a szárnyvonal teljes hosszán, Farkasgödörig, melyet ekkor "szalonnasütő vonat" néven is hívtak. 1983. május 21-én szerencsés kimenetelű baleset történt: a Farkasgödör felé tartó szerelvény két kocsija kisiklott, az egyik az oldalára dőlt. Tizenketten szenvedtek könnyebb sérülést, de az eset miatt a személyforgalmat ideiglenesen leállították.</div>
+        <div class="behuzas">A teherszállítás ezen a vonalon 1989-ben szűnt meg, majd a pálya állapotának romlása miatt 1993-ban leállították a közlekedést. A már nem használt síneket ekkor elkezdték ellopkodni. Ugyan 1998-ban ismét megindult a forgalom a nyári hétvégéken, de a sorozatos lopások miatt nem lehetett Farkasgödör-Örvénykőig közlekedni, ott az utolsó menetrend szerinti szerelvény 1994-ben járt.</div>
+        <div class="behuzas">Az önkéntes munkával eltűnt síneket és talpfákat 2001-ben pótolták Mahóca és Taksalápa között, és így a vonatok újra Taksalápáig közlekedtek, két hétig. Az öröm viszont nem tarthatott sokáig, mert újbóli lopások történtek kb 150 m hosszúságban. Ezután „vagy ők, vagy mi” alapon a LÁEV felszedette a síneket Mahóca és Taksalápa között, miközben Taksalápa után hibátlan állapotban megmaradt a pálya. A jó állapotú, ám már a köztes szakasz híján nem használható Taksalápa – Tízesbérc – Farkasgödör szakaszon szintén az erdészet szedette fel a síneket 2006-ban. Ma már nagyrészt csak a vágányok jól felismerhető helye van meg, de pl. Mahóca után egy rövidebb pálya teljesen épségben megmaradt.</div>
+        <div class="behuzas">2004-től volt újból személyforgalom nyáron hétvégeken (2007-es menetrend szerint napi egy vonatpár), de előfordultak kimaradások. 2008-tól 2014-ig a vonalon ideiglenes üzemszünet volt érvényben, ekkor csak Ortástetőig volt járható a szárnyvonal. Ortástető felett a pálya több helyen árvízkárokat szenvedett, míg Mahócánál az állomás jelentős részét (kb. felét) ellopták. A lopási-rongálási károk javítása mellett azonban a pálya állapota is nagyon rossz állapotú lett. (Nyomtávbővülés, szétrohadt talpfák, korrodált csavarok.) Ezért a LÁEV szakaszosan felújította a vonalat: előbb 2008-ig az Erdei iskoláig, ahol új mozdonykörüljárási lehetőség is létesült, majd 2014-ben Mahócáig. Napjainkban idáig járható. Menetrend szerinti közlekedés nem üzemel rajta, azonban rendszeresen járnak erre különvonatok. Az első különvonat 2014. október 25-én indult, azóta alkalmanként indul különjárat a szárnyvonalon. Az, hogy a mahócai szárnyvonalon menetrend szerint mikortól járnak a vonatok, még kérdéses. Az újraindításnak a műszaki akadályai már elhárultak, ám a pénzhiányra hivatkozva egyelőre nem indítják újra a forgalmat. A mahócai állomáson alkalmanként fát rakodnak.</div>
+        <div> Érdeklődni a <a href="http://www.laev.hu/" target="_blank">LÁEV honlapján</a> lehet a következő járatról.</div>
+     </span>
+     
+</div>
+
+<div mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close cdkFocusInitial>Bezár</button>
+  </div>

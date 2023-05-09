@@ -1,0 +1,5 @@
+<div>
+    <select mat-select (change)="reload()" [(ngModel)]="chosenTrain" class="example-additional-selection" >
+        <option class="example-additional-selection" *ngFor="let obj of trainsObjectInput" [ngValue]="obj">{{obj.nev}}</option>
+    </select>
+</div>

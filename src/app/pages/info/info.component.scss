@@ -1,0 +1,31 @@
+.split-view-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 86%;
+  
+    div {
+      width: 50%;
+      line-height: 1em;
+      font-size: large;
+    }
+    span {
+        width: 50%;
+        line-height: 3em;
+        font-size: 1em;
+        
+      }
+    .left {
+        background: #ffffcc;
+      }
+    
+      .right {
+        background: #ffffcc;
+      }
+
+}
+
+h1{
+    color:#823b17;
+    text-align: center;
+    padding-top: 2%;
+  }

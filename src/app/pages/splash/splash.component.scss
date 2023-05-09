@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    
+}
+mat-card{
+    border-radius: 40px;
+}
+p{
+    font-size: 200%;
+    color:#823b17;
+    
+    font-family:cursive;
+}
+.splash-category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.splash-category mat-card{
+    flex: 1;
+    min-width: 200px;
+    min-height: 200px;
+    height: 500px;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body {
+    background-color: 	#fefecd;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+  button {
+    position: relative;
+    overflow: hidden;
+    transition: background 400ms;
+    color: #fff;
+    background-color: #6200ee;
+    padding: 1rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    outline: 0;
+    border: 0;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); // 30% opacity 
+    cursor: pointer;
+    
+    
+  }
+
+

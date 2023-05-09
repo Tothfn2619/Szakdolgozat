@@ -1,0 +1,27 @@
+.split-view-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+  
+    div {
+      width: 50%;
+    }
+  
+    .left {
+      background: #ffffcc;
+    }
+    .middle{
+      background-color: #823b17;
+    }
+  
+    .right {
+      background: #d6d6c2;
+    }
+    
+  }
+  h1{
+    color:#823b17;
+    text-align: center;
+    padding-top: 2%;
+  }
+ 
