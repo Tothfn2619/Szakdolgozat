@@ -1,3 +1,6 @@
+Az elkészült Blender modellek .blend formátumban találhatóak a Blender modellek mappában. Ezeket a modelleket meg lehet tekinteni a Blender program letöltése után. 
+A modellek textúrája a Rendered módban látható, amit a Blender jobb felső sarkában található 4. gömbre kattintva lehet elérni.
+
 Az alkalmazásom fájljai, amiben a kódok találhatóak, az src/app mappában találhatóak. 
 A gyökérmodul itt található, App néven, ahonnan az alkalmazás indul, ahol az alkalmazás routing-ját valósítottam meg. 
 
