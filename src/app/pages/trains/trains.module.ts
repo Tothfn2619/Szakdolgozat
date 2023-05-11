@@ -11,7 +11,7 @@ import { ImageModule } from './image/image.module';
 import {MatIconModule} from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { CanvasTrainModule } from './canvas-train/canvas-train.module';
-import { DialogModule } from './dialog/dialog.module';
+//import { DialogModule } from './dialog/dialog.module';
 import { Mk48hModule } from './mk48h/mk48h.module';
 import { Kv4Module } from './kv4/kv4.module';
 import { AbamotModule } from './abamot/abamot.module';
@@ -44,7 +44,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     ListModule,
     ImageModule,
     CanvasTrainModule,
-    DialogModule,
+    //DialogModule,
     Mk48hModule,
     Kv4Module,
     AbamotModule,

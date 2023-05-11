@@ -10,12 +10,9 @@ import { enableProdMode } from '@angular/core';
 })
 export class AppComponent {
   title = 'Lillafüredi kisvasút';
-  //page = 'trains';
+ 
 
   constructor(private router: Router) { }
 
-  /*
-  changePage(selectedPage: string) {
-    this.router.navigateByUrl(selectedPage);
-  }*/
+ 
 }
